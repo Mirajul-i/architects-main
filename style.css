@@ -1,0 +1,150 @@
+.main-hed{
+background-color: aqua;
+}
+.title{
+position: absolute;
+width: 302px;
+height: 53px;
+left: 228px;
+top: 50px;
+}
+.title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.menu{
+position: absolute;
+width: 477px;
+height: 26px;
+left: 1203px;
+top: 63px;
+}
+.heading-title{
+position: absolute;
+width: 862px;
+height: 225px;
+left: 450px;
+top: 205px;
+}
+.headin{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+}
+.explore-btn{
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 370px;
+    top: 310px;
+}
+#banner{
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    left: 180px;
+    top: 610px;
+    border-radius: 10px;
+}
+.features{
+display:inline-block;
+}
+.image-galery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-top: 1350px;
+    margin-left: 200px;
+    width: 30px;
+}
+.quick-list{
+    width: 537px;
+    height: 304px;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+.img-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    width: 468px;
+    height: 106px;
+}
+.features-info{
+   background-color: aliceblue;
+   margin-left: 180px;
+   margin-top: 150px;
+   width: 500px;    
+}
+.features-des{
+   background-color: aliceblue;
+   margin-left: 180px;
+   margin-top: 20px;
+   width: 500px;
+}
+.features-img{
+   margin-left: 800px;
+   margin-top: -700px;
+}
+.year-btn{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 880px;
+    top: 2500px;
+}
+.Some-Facts{
+   margin-top: 150px;
+   margin-left: 180px;
+   width: 400px;
+}
+.icon-title{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.icons{
+text-align: center;
+border: 1px solid #FF900E;
+width: 150px;
+height: 150px;
+margin: 30px;
+padding: 15px;
+}
+.icons{
+    --s: 250px;
+    --b: 8px;
+    --g: 14px; 
+    --c: #4ECDC4;
+}
+.icons:hover{
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+.Our-Sponspors{
+text-align: center;
+margin-top: 100px;
+}
+.site-link{
+text-align: center;
+margin-top: 50px;
+}
+#link{
+margin: 40px;
+}
+.end{
+background-color:blanchedalmond;
+height: 50px;
+width: 500px;
+padding: 10px;
+margin-left: 35%;
+}
