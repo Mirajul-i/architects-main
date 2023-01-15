@@ -1,9 +1,8 @@
 .main-hed{
-background-color: aqua;
+background-color:aliceblue;
 }
 .title{
 position: absolute;
-width: 302px;
 height: 53px;
 left: 228px;
 top: 50px;
@@ -18,9 +17,23 @@ line-height: 53px;
 .menu{
 position: absolute;
 width: 477px;
-height: 26px;
+height: 40px;
 left: 1203px;
 top: 63px;
+}
+.menu-btn{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    padding:10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #008CBA;
+}
+.menu-btn:hover{
+    background-color: #f44336;
+
 }
 .heading-title{
 position: absolute;
@@ -41,8 +54,17 @@ text-align: center;
     position: absolute;
     width: 180px;
     height: 64px;
+    font-weight: 500;
+    font-size: 20px;
     left: 370px;
     top: 310px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #008CBA;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.explore-btn:hover{
+    background-color: #f44336;
 }
 #banner{
     position: absolute;
@@ -53,7 +75,7 @@ text-align: center;
     border-radius: 10px;
 }
 .features{
-display:inline-block;
+display: inline-block;
 }
 .image-galery{
     display: grid;
@@ -64,11 +86,16 @@ display:inline-block;
     margin-left: 200px;
     width: 30px;
 }
+
 .quick-list{
     width: 537px;
-    height: 304px;
+    height: 370px;
     margin-left: 800px;
-    margin-top: -350px;
+    margin-top: -450px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:bisque;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .img-title{
     font-family: 'Work Sans';
@@ -83,24 +110,40 @@ display:inline-block;
    background-color: aliceblue;
    margin-left: 180px;
    margin-top: 150px;
-   width: 500px;    
+   width: 500px;
+   padding: 10px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  
 }
 .features-des{
    background-color: aliceblue;
    margin-left: 180px;
    margin-top: 20px;
    width: 500px;
+   padding: 10px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .features-img{
    margin-left: 800px;
-   margin-top: -700px;
+   margin-top: -850px;
+}
+#architect{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .year-btn{
     position: absolute;
     width: 200px;
     height: 100px;
+    font-size: 25px;
     left: 880px;
-    top: 2500px;
+    top: 2750px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #008CBA;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.year-btn:hover{
+    background-color: #f44336;
+    
 }
 .Some-Facts{
    margin-top: 150px;
@@ -119,6 +162,7 @@ width: 150px;
 height: 150px;
 margin: 30px;
 padding: 15px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .icons{
     --s: 250px;
@@ -147,4 +191,66 @@ height: 50px;
 width: 500px;
 padding: 10px;
 margin-left: 35%;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
+.contact{
+display: flex;
+background-image: url('bg-img/bg.jpg');
+height: 450px;
+margin-top: 20px;
+}
+
+.contact-info{
+width: 40%;
+margin-top: 40px;
+margin-left: 150px;
+}
+.con-icon{
+display: flex;
+margin-top: 250px;
+}
+
+.my-logu{
+margin-left: 300px;
+margin-top: 90px;
+width: 30px;
+}
+.miraj{
+color: #FFFFFF;
+font-size: 36px;
+}
+
+.contact-email{
+width: 40%;
+margin-left: 500px;
+}
+.contact-title{
+color: #FFFFFF;
+}
+.contact-des{
+color: #FFFFFF;
+}
+.message-title{
+color: #FFFFFF;
+}
+.contact-email input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 70%;
+    padding: 18px 30px;
+}
+.submit{
+    width: 180px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    left: 370px;
+    top: 310px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #f44336;
+}
+
+/* ..........................
+         Media quary.................. */
